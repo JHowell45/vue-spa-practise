@@ -23,6 +23,11 @@
 <script>
 export default {
   name: "AppNavigation",
+  data() {
+    return {
+      appTitle: "Meal Prep",
+    };
+  },
 };
 </script>
 
